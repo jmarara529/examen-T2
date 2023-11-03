@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
 
-    private static String Relleno = "x";
-    private static String espcacio = " ";
+    private final static String Relleno = "x";
+    private final static String espcacio = " ";
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);

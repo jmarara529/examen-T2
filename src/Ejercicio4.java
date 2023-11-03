@@ -20,7 +20,7 @@ public class Ejercicio4 {
                         for (int recorrido = 0; (recorrido + actual) <= anterior; recorrido++) {
                             diferencia += recorrido;
                         }
-                    } else if (actual > anterior) {
+                    } else {
 
                         for (int recorrido = 0; (recorrido + anterior) <= actual; recorrido++) {
                             diferencia += recorrido;
